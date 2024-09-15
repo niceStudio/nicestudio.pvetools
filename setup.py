@@ -1,6 +1,6 @@
 kwargs = {
     'name': 'nicestudio.pvetools',
-    'version': '1.0.dev1',
+    'version': '1.0.dev2',
     'description': 'Python script for PVE.',
     'long_description': open('README.md').read(),
     'author': 'niceStudio, Inc',
@@ -22,7 +22,7 @@ kwargs = {
     ],
     'install_requires': open('requirements.txt').read().split('\n'),
     'entry_points': {'console_scripts': [
-        'pvetool = nicestudio.pvetools.pvetool.main:main',
+        'pvetool = nicestudio.pvetools.main:main',
     ]},
 }
 
